@@ -1,8 +1,8 @@
 # LCD_Emulator_Arduino-side
 🐦 A lightweight Arduino class for emulating LCD on your computer. Include this class, plug in your Arduino, start Serial Communication and, run!
 
-### Example
-
+## Example
+```
 #include "LCDemulator.h"
 LCDemulator lcd;
 
@@ -20,5 +20,5 @@ void setup() {
 
 void loop() {
 }
-
+```
 * Requires LCD_Emulator_Processing-side to run on your computer. Grab it from [here](https://github.com/AbelWondafrash/LCD_Emulator_for_Arduino).
