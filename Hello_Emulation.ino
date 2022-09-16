@@ -7,7 +7,7 @@ void setup() {
   
   lcd.begin (20, 4); // Set the Character LCD size matching the Processing side here
   lcd.setCursor (0, 1);
-  lcd.print ("Emulated");
+  lcd.print ("Hello Emulation!");
   
   delay (1000);
   
